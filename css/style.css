@@ -12,7 +12,9 @@ main{
   color: #fff;
   height: calc(100vh - 77px);
 }
-main h3{
+main h3,
+.text{
+  display: block;
   text-align: center;
   font-size: 25px;
   text-transform: uppercase;
@@ -24,6 +26,7 @@ main h3{
   text-align: center;
   padding-bottom: 20px;
 }
+
 main .content{
   width: 500px;
   height: 100px;
@@ -33,6 +36,6 @@ main .content{
   justify-content: center;
   align-items: center;
 }
-.content span{
+.content span,{
   font-size: 40px;
 }
